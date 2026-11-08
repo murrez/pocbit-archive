@@ -132,16 +132,6 @@ A root [`.gitignore`](.gitignore) excludes common secrets and build output. Befo
 
 ---
 
-## Suggested GitHub metadata
-
-| Field | Value |
-|-------|--------|
-| **Name** | `exploits-toolkit-archive` |
-| **Description** | Archived IoT & CVE exploit PoCs, scanners, loaders, and research stacks. Authorized security research only. |
-| **Topics** | `security-research`, `iot`, `cve`, `exploit-development`, `malware-analysis`, `archive` |
-
----
-
 ## License
 
 No unified license at the repository root. Subprojects may carry their own terms (e.g. `plex2shell` is GPLv3). Treat unmarked code as **all rights reserved / research-only** unless you add explicit licensing.
