@@ -1,0 +1,143 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:2:1-56:12
+		INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:2:1-56:12
+		INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:9:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_DATA_SYNC
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:10:5-87
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:10:22-84
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:11:22-65
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:12:5-95
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:12:22-92
+application
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:14:5-55:19
+	android:requestLegacyExternalStorage
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:20:9-52
+	android:label
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:16:9-31
+	android:allowBackup
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:17:9-56
+	android:networkSecurityConfig
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:19:9-69
+	android:usesCleartextTraffic
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:18:9-44
+activity#com.reaverbot.load.MainActivity
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:22:9-30:20
+	android:excludeFromRecents
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:23:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:26:13-29:29
+action#android.intent.action.MAIN
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:28:27-74
+service#com.reaverbot.load.IranbotService
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:32:9-37:46
+	android:exported
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:34:13-36
+	android:stopWithTask
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:36:13-41
+	android:directBootAware
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:37:13-43
+	android:foregroundServiceType
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:35:13-53
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:33:13-43
+receiver#com.reaverbot.load.BootReceiver
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:39:9-49:20
+	android:enabled
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:42:13-35
+	android:exported
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:41:13-36
+	android:directBootAware
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:40:13-41
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:44:13-48:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:45:25-76
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:46:17-86
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:46:25-83
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:47:17-82
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:47:25-79
+receiver#com.reaverbot.load.RestartReceiver
+ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:52:13-44
+uses-sdk
+INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml

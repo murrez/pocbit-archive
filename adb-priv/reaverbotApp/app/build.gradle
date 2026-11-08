@@ -1,0 +1,21 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.reaverbot.load"
+        minSdkVersion 14
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/java']
+            jniLibs.srcDirs = ['src/main/jniLibs']
+        }
+    }
+}

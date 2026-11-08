@@ -1,0 +1,8 @@
+com.reaverbot.load.app-pngs-0 /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/build/generated/res/pngs/debug
+com.reaverbot.load.app-resValues-1 /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/build/generated/res/resValues/debug
+com.reaverbot.load.app-rs-2 /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/build/generated/res/rs/debug
+com.reaverbot.load.app-mergeDebugResources-3 /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.reaverbot.load.app-mergeDebugResources-4 /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.reaverbot.load.app-merged_res-5 /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/build/intermediates/merged_res/debug
+com.reaverbot.load.app-debug-6 /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/debug/res
+com.reaverbot.load.app-main-7 /Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/res

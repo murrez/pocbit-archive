@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.reaverbot.load.app-merged_res-5:/drawable-xhdpi_ic_notify.png.flat",
+        "source": "com.reaverbot.load.app-pngs-0:/drawable-xhdpi/ic_notify.png"
+    },
+    {
+        "merged": "/Users/mac/.gradle/daemon/7.5.1/com.reaverbot.load.app-merged_res-5:/xml_network_security_config.xml.flat",
+        "source": "/Users/mac/.gradle/daemon/7.5.1/com.reaverbot.load.app-main-7:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.reaverbot.load.app-merged_res-5:/drawable-xxhdpi_ic_notify.png.flat",
+        "source": "com.reaverbot.load.app-pngs-0:/drawable-xxhdpi/ic_notify.png"
+    },
+    {
+        "merged": "com.reaverbot.load.app-merged_res-5:/drawable-anydpi-v21_ic_notify.xml.flat",
+        "source": "com.reaverbot.load.app-pngs-0:/drawable-anydpi-v21/ic_notify.xml"
+    },
+    {
+        "merged": "com.reaverbot.load.app-merged_res-5:/drawable-xxxhdpi_ic_notify.png.flat",
+        "source": "com.reaverbot.load.app-pngs-0:/drawable-xxxhdpi/ic_notify.png"
+    },
+    {
+        "merged": "com.reaverbot.load.app-merged_res-5:/drawable-mdpi_ic_notify.png.flat",
+        "source": "com.reaverbot.load.app-pngs-0:/drawable-mdpi/ic_notify.png"
+    },
+    {
+        "merged": "com.reaverbot.load.app-merged_res-5:/drawable-ldpi_ic_notify.png.flat",
+        "source": "com.reaverbot.load.app-pngs-0:/drawable-ldpi/ic_notify.png"
+    },
+    {
+        "merged": "com.reaverbot.load.app-merged_res-5:/drawable-hdpi_ic_notify.png.flat",
+        "source": "com.reaverbot.load.app-pngs-0:/drawable-hdpi/ic_notify.png"
+    }
+]

