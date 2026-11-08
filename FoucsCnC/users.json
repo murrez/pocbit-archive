@@ -1,0 +1,19 @@
+[
+  {
+    "AccountPlan": "root",
+    "Username": "root",
+    "Password": "root",
+    "Expiry": "999y",
+    "Cooldown": 0,
+    "MaxTime": 9999,
+    "Concurrents": 99,
+    "API Access": true,
+    "Vip Access": true,
+    "Focus Access": true,
+    "HMH Access": true,
+    "Admin": true,
+    "Reseller": true,
+    "Tools": true,
+    "User Attacks Send": 99999
+  }
+]

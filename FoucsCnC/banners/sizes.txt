@@ -1,0 +1,12 @@
+main.tfx 65x20
+help.tfx 91x16
+lookup.tfx 67x24
+plan_info.tfx 77x22
+attack_send.tfx 88x19
+methods.tfx 85x34
+
+
+
+attack.tfx and welcome.tfx THE GIFS welcome.tfx BEFORE LOGIN attack.tfx BEFORE ATTACK SEND
+
+--width 80 --height 24
