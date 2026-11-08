@@ -1,0 +1,61 @@
+{
+  "version": 3,
+  "redirect": {
+    "host": "10.0.0.5",
+    "port": 3778
+  },
+  "bins": {
+    "mips": {
+      "url": "http://cdn.example.com/bins/mips",
+      "sha256": ""
+    },
+    "mipsel": {
+      "url": "http://cdn.example.com/bins/mipsel",
+      "sha256": ""
+    },
+    "arm": {
+      "url": "http://cdn.example.com/bins/arm",
+      "sha256": ""
+    },
+    "arm5": {
+      "url": "http://cdn.example.com/bins/arm5",
+      "sha256": ""
+    },
+    "arm6": {
+      "url": "http://cdn.example.com/bins/arm6",
+      "sha256": ""
+    },
+    "arm7": {
+      "url": "http://cdn.example.com/bins/arm7",
+      "sha256": ""
+    },
+    "x86": {
+      "url": "http://cdn.example.com/bins/x86",
+      "sha256": ""
+    },
+    "x86_64": {
+      "url": "http://cdn.example.com/bins/x86_64",
+      "sha256": ""
+    },
+    "ppc": {
+      "url": "http://cdn.example.com/bins/ppc",
+      "sha256": ""
+    },
+    "sh4": {
+      "url": "http://cdn.example.com/bins/sh4",
+      "sha256": ""
+    },
+    "arc": {
+      "url": "http://cdn.example.com/bins/arc",
+      "sha256": ""
+    },
+    "android-arm": {
+      "url": "http://cdn.example.com/bins/android-arm",
+      "sha256": ""
+    },
+    "android-arm64": {
+      "url": "http://cdn.example.com/bins/android-arm64",
+      "sha256": ""
+    }
+  }
+}
