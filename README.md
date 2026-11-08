@@ -1,4 +1,4 @@
-# exploits-toolkit-archive
+# PocBit Exploit Archive
 
 **Archived IoT & CVE exploit PoCs, scanners, loaders, and research stacks.**  
 Educational material for **authorized security research**, malware analysis, and defensive engineering—not a maintained product line.
