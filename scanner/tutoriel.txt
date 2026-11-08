@@ -1,0 +1,181 @@
+discord.gg/kiraservices join for more
+
+# Scanner
+
+Telnet network scanner, brute-forcer, and loader toolkit written in Go.
+
+---
+
+## Project Structure
+
+```
+scanner/
+├── go.mod
+├── README.md
+└── cmd/
+    ├── scanner/        # Masscan wrapper — discovers open Telnet (port 23) hosts
+    │   └── main.go
+    ├── telnetbrute/    # Brute-forcer — tries credential combos against Telnet hosts
+    │   └── main.go
+    └── loader/         # Loader — verifies & loads real devices with 6-step validation
+        └── main.go
+```
+
+---
+
+## Tools
+
+### 1. Scanner
+
+Wraps [Masscan](https://github.com/robertdavidgraham/masscan) to scan IP ranges for open port 23.
+
+```bash
+go build -o scanner ./cmd/scanner
+./scanner
+```
+
+Scans predefined `/8` ranges and writes results to `masscan_results_telnet.txt`.
+
+> **Requires:** `masscan` installed and accessible in `$PATH`.
+
+---
+
+### 2. TelnetBrute
+
+Concurrent brute-forcer that tries a built-in credential list against Telnet hosts.
+
+```bash
+go build -o telnetbrute ./cmd/telnetbrute
+./telnetbrute <ip_list.txt> <threads> <output_file>
+```
+
+| Argument | Description |
+|---|---|
+| `ip_list.txt` | File with one IP per line |
+| `threads` | Number of concurrent workers |
+| `output_file` | File to write successful logins |
+
+**Output format:** `<IP>:23 <username>:<password>`
+
+---
+
+### 3. Loader
+
+Connects to devices from a credential list, runs a **6-step verification pipeline**, and sends `echo hi`. Verified real devices are reported to a Discord webhook.
+
+```bash
+go build -o loader ./cmd/loader
+./loader <list.txt>
+```
+
+**Input format (`list.txt`):**
+```
+192.168.1.1:23 root:root
+10.0.0.5:23 admin:admin
+```
+
+#### Verification Pipeline
+
+| Step | Check | Fail Tag |
+|---|---|---|
+| 1 | **Login** — authenticate with given credentials | `FAIL` |
+| 2 | **Real Device** — fingerprint via `uname`, `/proc`, NIC, honeypot signatures | `HONEYPOT` |
+| 3 | **Shell Works** — send random echo marker and verify response | `DEAD_SHELL` |
+| 4 | **Persistence** — write file in session 1, verify it exists in session 2 | Logged as `persist=NO` |
+| 5 | **Login Consistency** — re-login 2 more times with same credentials | `INCONSISTENT` |
+| 6 | **Load** — send shell command, capture output, report to Discord | `LOADED` ✅ |
+
+#### Discord Webhook
+
+Devices that pass all checks send an embed to Discord:
+
+```
+✅ Real Device Found
+┌─────────────────────────────┐
+│ IP:        192.168.1.1:23   │
+│ Username:  root             │
+│ Password:  admin            │
+│ Output:    hi               │
+└─────────────────────────────┘
+```
+
+#### Terminal Output
+
+Color-coded results per device, followed by a summary table:
+
+```
+┌─────────────────────────────────┐
+│         Scan Summary            │
+├─────────────────────────────────┤
+│  Total          : 150           │
+│  Loaded         : 12            │
+│  Honeypot       : 34            │
+│  Dead Shell     : 8             │
+│  Inconsistent   : 5             │
+│  Failed         : 91            │
+└─────────────────────────────────┘
+```
+
+---
+
+## Workflow
+
+```
+Scanner ──► ip_list.txt ──► TelnetBrute ──► list.txt ──► Loader ──► Discord
+  (masscan)                 (brute-force)                (verify & load)
+```
+
+1. **Scanner** discovers hosts with open port 23
+2. **TelnetBrute** finds valid credentials from a built-in combo list
+3. **Loader** verifies devices are real, persistent, and functional — then loads
+
+---
+
+## Build All
+
+```bash
+go build -o scanner     ./cmd/scanner
+go build -o telnetbrute ./cmd/telnetbrute
+go build -o loader      ./cmd/loader
+```
+
+---
+
+## Requirements
+
+- **Go** 1.18+
+- **Masscan** (for scanner only)
+- **git**, **make**, **gcc** (to build masscan)
+
+---
+
+## Install Masscan
+
+```bash
+git clone https://github.com/robertdavidgraham/masscan
+cd masscan
+```
+
+If your compiler throws this error:
+
+```
+error: 'for' loop initial declarations are only allowed in C99 mode
+```
+
+Build with:
+
+```bash
+make -j CFLAGS="-std=gnu99 -g -ggdb -Wall -O2"
+```
+
+Otherwise just:
+
+```bash
+make -j
+```
+
+Then install:
+
+```bash
+make install
+```
