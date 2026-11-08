@@ -1,0 +1,11 @@
+// HOw to run?
+go build boa.go
+go build scanlisten.go
+rm -rf boa.go
+rm -rf scanlisten.go
+
+// How to scanlisten?
+First, Go appointed vps server and do ./scanlisten
+
+// This command complete that reverse scanlisten's ip
+./scanner -p 80 -q -w all.zone | ./boa 80
