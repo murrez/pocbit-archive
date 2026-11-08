@@ -1,0 +1,1 @@
+i686-w64-mingw32-gcc -o firewall_silent.exe firewall.c -lshell32 -lole32 -loleaut32

